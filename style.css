@@ -34,3 +34,14 @@ ul{
     color: #F9FAF8;
 }
 
+
+.content1{
+    display: flex;
+    justify-content: center;
+}
+
+.image_text{
+    display: flex;
+    flex-direction: column;
+}
+
