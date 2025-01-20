@@ -1,5 +1,6 @@
 * {
     border: 2px solid red;
+    font-family: 'Roboto';
 }
 
 body{
@@ -71,6 +72,7 @@ ul{
 
 #row1_image{
     height: 200px;
+    width: 400px;
     
 }
 .row1_text{
@@ -103,12 +105,33 @@ ul{
 
 .container{
     display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 .card_text{
     text-align: center;
+    margin-top: 0px;
+    width:140px;
+    font-size: 15px;
+    color:#9b9fa8;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
+.card_image{
+    width: 140px;
+    height: 140px;
+    align-self: center;
+}
+
+
+
+/*ROW 3*/
 
 .content3{
     display: flex;
