@@ -139,8 +139,9 @@ ul{
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
-    flex-wrap:wrap;
+    color: #878d96;
+    justify-content: center;
+    align-items: center;
   
     
 }
@@ -149,10 +150,17 @@ ul{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 0px;
+    width:830px;
+    
 }
 
 .author{
     text-align: end;
     margin: 0;
     margin-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    width: 870px;
+    
 }
