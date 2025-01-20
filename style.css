@@ -6,17 +6,26 @@ body{
     /*background-color: #1F2937;*/
 }
 
+/*universal CSS*/
+.header,.content1, .footer{
+    background-color: #1F2937;
+}
 
+button{
+    width: 100px;
+    /*to make rounded edges*/
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*header*/
 ul{
     list-style: none;
     display: flex;
     gap:10px;
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.header,.content1, .footer{
-    background-color: #1F2937;
 }
 
 .header{
@@ -41,11 +50,39 @@ ul{
 .content1{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .image_text{
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
+    width:300px
+    
+}
+
+#content1_header{
+    margin-bottom: 0;
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+#row1_image{
+    height: 200px;
+    
+}
+.row1_text{
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+#row1_button{
+    color:#E5E7EB;
+    background-color: #3882F6;
 }
 
 
