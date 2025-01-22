@@ -14,6 +14,9 @@ body{
 
 button{
     width: 100px;
+    color:#E5E7EB;
+    background-color: #3882F6;
+
     /*to make rounded edges*/
     border-radius: 25px;
     padding-top: 5px;
@@ -82,10 +85,7 @@ ul{
     color:#E5E7EB;
 }
 
-#row1_button{
-    color:#E5E7EB;
-    background-color: #3882F6;
-}
+
 
 
 
@@ -182,4 +182,46 @@ ul{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #3882F6;
+
+
+
+    justify-content: space-around;
+    
+}
+
+#row4_button{
+    border-color: white;
+}
+
+#CTA{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#text{
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text{
+    margin-top: 0;
+}
+
+#CTA{
+    margin-bottom: 0;
+}
+
+#row4_button{
+    border-radius: 7px;
+    /*
+       lower radious equals squarer box 
+       higher radious equals rounder box
+    */
 }
