@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     font-family: 'Roboto';
 }
 
@@ -85,8 +85,16 @@ ul{
     color:#E5E7EB;
 }
 
+.row1_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
 
-
+#row1_button{
+    border: white;
+}
 
 
 
@@ -94,6 +102,8 @@ ul{
 .content2{
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 10px;
 }
 
 #row2_h1{
@@ -129,7 +139,12 @@ ul{
     align-self: center;
 }
 
-
+.row2_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
 
 /*ROW 3*/
 
@@ -143,7 +158,12 @@ ul{
     justify-content: center;
     align-items: center;
   
+    margin-bottom: 20px;
     
+}
+.row3_container{
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .quote{
@@ -178,14 +198,17 @@ ul{
     align-items: center;
 
     /*to make rounded edges*/
-    border-radius: 25px;
+    border-radius: 7px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #3882F6;
 
 
-
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right:300px;
     justify-content: space-around;
+    margin-bottom: 40px;
     
 }
 
@@ -208,6 +231,8 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #text{
@@ -224,4 +249,11 @@ ul{
        lower radious equals squarer box 
        higher radious equals rounder box
     */
+}
+
+/*footer*/
+
+.footer{
+    text-align: center;
+    color:#E5E7EB;
 }
