@@ -1,0 +1,32 @@
+* {
+    outline:3px solid red;
+}
+
+
+.inital-setup{
+    display: flex;
+    flex-direction: column;
+}
+
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li{
+    list-style: none;
+}
+
+.hList{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/*row1*/
+
+
