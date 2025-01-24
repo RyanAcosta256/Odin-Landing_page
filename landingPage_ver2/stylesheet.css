@@ -30,3 +30,23 @@ li{
 /*row1*/
 
 
+.container{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.image_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.row1_image{
+    width:500px;
+    height:200px;
+}
+
