@@ -70,7 +70,6 @@ li{
     margin-bottom: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 40px;
     
 }
@@ -111,9 +110,14 @@ li{
 
 /*row2*/
 
+#row2{
+    background-color: white;
+}
+
 .row2Header{
     text-align: center;
     color:black;
+    background-color: white;
 }
 
 
@@ -122,6 +126,7 @@ li{
     justify-content: center;
     gap: 40px;
     margin-bottom: 70px;
+    background-color: white;
 }
 
 .card{
@@ -129,11 +134,13 @@ li{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: white;
 }
 
 .card_text{
     width: 200px;
     text-align: center;
+    background-color: white;
     
 }
 
@@ -154,6 +161,8 @@ li{
 
     margin-top: 100px;
     margin-bottom: 70px;
+
+    background-color: #E5E7EB;
 }
 
 .quote{
@@ -164,11 +173,17 @@ li{
     text-align: center;
 
     margin-bottom: 0;
+
+    background-color: #E5E7EB;
 }
 
 .author{
     text-align: end;
     margin-top: 0;
+    font-size: 18px;
+    color: #1F2937;
+
+    background-color: #E5E7EB;
 }
 
 
@@ -177,6 +192,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: white;
 }
 
 
@@ -200,17 +217,20 @@ li{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: #3882F6;
 }
 .CTA{
     color:#E5E7EB;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 0;
+    background-color: #3882F6;
 }
 
 .CTA_desc{
     margin-top: 2px;
     color:#c7cacf;
+    background-color: #3882F6;
 }
 
 
